@@ -37,6 +37,18 @@ var typeofCalculation = prompt('For addition press 1, for multiplication press 2
  	var answer = parseInt(number1) + parseInt(number2);
  	alert(answer);
  	break;
+ 	case '2':
+ 	var answer = parseInt(number1) * parseInt(number2);
+ 	alert(answer);
+ 	break;
+ 	case '3':
+ 	var answer = parseInt(number1) / parseInt(number2);
+ 	alert(answer);
+ 	break;
+ 	case '4':
+ 	var answer = parseInt(number1) - parseInt(number2);
+ 	alert(answer);
+ 	break;
  }
 }
 else if(calcChoice === 3) {
